@@ -1,11 +1,5 @@
 @charset 'UTF-8';
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     
     body {
@@ -14,7 +8,7 @@
 
     section#login {
         width: 90vw;
-        height: 500px;
+        height: 340px;
     }
 
     section#login > div#imagem {
@@ -38,6 +32,7 @@
     
     section#login {
         width: 950px;
+        height: 450px;
     }
 
     section#login > div#imagem {
@@ -54,10 +49,12 @@
     div#formulario > p {
         text-align: center;
         font-size: 1.2em;
+        padding: 2px;
     }
 
     div#formulario > h1 {
         text-align: center;
         margin-bottom: 2em;
+        padding-top: 5px;
     }
 }
